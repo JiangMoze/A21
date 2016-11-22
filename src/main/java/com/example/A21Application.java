@@ -19,8 +19,12 @@ public class A21Application {
 	@RequestMapping("/")
 	public String index(){
 		return username+"你好吗？";
+
+
 	}
 	public static void main(String[] args) {
+
+
 		SpringApplication.run(A21Application.class, args);
 	}
 }
