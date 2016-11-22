@@ -15,6 +15,7 @@ public class A21Application {
 	@Value("${weikun.username}")
 	private String username;
 
+
 	@RequestMapping("/")
 	public String index(){
 		return username+"你好吗？";
